@@ -1,0 +1,15 @@
+{
+  "domain": "homeassistant_a5_noten",
+  "name": "FHV A5-Noten",
+  "version": "1.1.0",
+  "documentation": "https://github.com/lukas3482/homeassistant_a5_noten",
+  "requirements": [
+    "requests>=2.28.0",
+    "beautifulsoup4>=4.11.0",
+    "voluptuous>=0.12.2"
+  ],
+  "dependencies": [],
+  "codeowners": ["@lukas3482"],
+  "iot_class": "cloud_polling",
+  "integration_type": "hub"
+}
